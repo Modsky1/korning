@@ -13,7 +13,7 @@ rails g model invoices
 add_column :sales, :employee_id, :integer
 
 
-
+rails g model invoice sales_date:string invoice_number:integer invoice_frequency:string sale_id:integer
 
 
 TABLES:
@@ -21,7 +21,7 @@ TABLES:
       CUSTOMER - ! DONE
       PRODUCT - !DONE
       EMPLOYEE - !DONE (must remove emploee name )
-      INVOICES
+      INVOICES - sale_date, invoice_no, sale_id
       SALES ?
 
 PRODUCT SALES: Product_id, sale_id, product_price, quantity
