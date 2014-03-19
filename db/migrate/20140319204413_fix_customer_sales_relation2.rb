@@ -8,3 +8,5 @@ class FixCustomerSalesRelation2 < ActiveRecord::Migration
     end
   end
 end
+# don't use any of this or you'll die
+

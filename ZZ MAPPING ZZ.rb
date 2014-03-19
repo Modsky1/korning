@@ -18,7 +18,7 @@ add_column :sales, :employee_id, :integer
 
 TABLES:
 
-      CUSTOMER -
+      CUSTOMER - ! DONE
       PRODUCT - !DONE
       EMPLOYEE - !DONE (must remove emploee name )
       INVOICES
