@@ -21,7 +21,7 @@ TABLES:
       CUSTOMER - ! DONE
       PRODUCT - !DONE
       EMPLOYEE - !DONE (must remove emploee name )
-      INVOICES - sale_date, invoice_no, sale_id
+      INVOICES - !DONE
       SALES ?
 
 PRODUCT SALES: Product_id, sale_id, product_price, quantity

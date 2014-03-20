@@ -32,10 +32,8 @@ ActiveRecord::Schema.define(version: 20140319225650) do
   end
 
   create_table "invoices", force: true do |t|
-    t.string   "sales_date"
     t.integer  "invoice_number"
     t.string   "invoice_frequency"
-    t.integer  "sale_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

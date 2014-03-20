@@ -6,7 +6,7 @@ end
 
 class RemoveRedundantEmployeeFields < ActiveRecord::Migration
   def up
-    remove_column :employee,
+    remove_column :employee
   end
 
   def down
